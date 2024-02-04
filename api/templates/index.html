@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTMX and Flask Example</title>
+    <!-- Import HTMX -->
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    <h1>HTMX and Flask Demo</h1>
+    <div id="time" hx-get="/load_time" hx-trigger="every 1s">
+        Loading time...
+    </div>
+</body>
+</html>
