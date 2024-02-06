@@ -16,7 +16,7 @@ CLIENT_SECRET = os.environ['CLIENT_SECRET']
 
 DATA = {
         'response_type':"code", # this tells the auth server that we are invoking authorization workflow
-        'redirect_uri':"https://127.0.0.1:5000/login/callback", # redirect URI https://console.developers.google.com/apis/credentials
+        'redirect_uri':"https://www.flask-auth-seven.vercel.app/login/callback", # redirect URI https://console.developers.google.com/apis/credentials
         'scope': 'https://www.googleapis.com/auth/userinfo.email', # resource we are trying to access through Google API
         'client_id':CLIENT_ID, # client ID from https://console.developers.google.com/apis/credentials
         'prompt':'consent'} # adds a consent screen
