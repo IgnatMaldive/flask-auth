@@ -37,6 +37,10 @@ REQ_URI = CLIENT.prepare_request_uri(
 
 app = Flask(__name__)
 
+@app.route('/manola')
+def manola():
+    return 'manola'
+        
 @app.route('/')
 def login():
     "Home"
