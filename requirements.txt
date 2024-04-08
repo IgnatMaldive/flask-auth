@@ -1,4 +1,4 @@
-Flask==3.9
+Flask
 Flask-OAuthlib
 requests
 python-dotenv
